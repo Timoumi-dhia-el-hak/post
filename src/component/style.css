@@ -1,0 +1,63 @@
+.card {
+  width: 18rem;
+  margin: 2%;
+}
+.card-body {
+  padding: 0;
+}
+.wraper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box {
+  padding-top: 20px;
+  padding: 2%;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(32, 124, 229, 1) 0%,
+    rgba(32, 124, 229, 1) 49%,
+    rgba(204, 218, 232, 1) 54%,
+    rgba(204, 218, 232, 1) 100%
+  );
+}
+.box1 {
+  padding-top: 20px;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box2 {
+  padding-top: 20px;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+}
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 80%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+.post-title h4 {
+  color: rgb(236, 119, 119);
+}
+.fa-comment {
+  margin-left: 250px;
+}
+.posts {
+  color: #eaeef3;
+  background-color: #207ce5;
+  border: none;
+}
